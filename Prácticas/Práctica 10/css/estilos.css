@@ -1,0 +1,149 @@
+/*EN ESTE ARCHIVO SE UTILIZÓ INTELIGENCIA ARTIFICIAL: GEMINI 3.0*/
+
+/* --- RESET Y BASES --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a0a0c; /* Fondo casi negro espacial */
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-left: 2px solid #2a2a2a;
+    border-right: 2px solid #2a2a2a;
+}
+
+/* --- IMAGEN DE CABECERA --- */
+img {
+    display: block;
+    margin: 0 auto 30px;
+    max-width: 100%;
+    filter: drop-shadow(0 0 10px rgba(255, 232, 31, 0.3)); /* Brillo sutil amarillo Star Wars */
+}
+
+/* --- TÍTULOS --- */
+h2, .titulos {
+    color: #ffe81f; /* Amarillo clásico de Star Wars */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #4da6ff; /* Azul Jedi */
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/* --- MENÚ DE NAVEGACIÓN --- */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #16161a;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+ul li a:hover {
+    background-color: #ffe81f;
+    color: #000;
+    box-shadow: 0 0 15px rgba(255, 232, 31, 0.6);
+}
+
+/* --- CONTENIDO TEXTUAL (Bibliografía) --- */
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #b0b0b0;
+}
+
+#produc {
+    background: #1c1c21;
+    padding: 20px;
+    border-left: 4px solid #ff4444; /* Rojo Sith para destacar sección */
+    font-style: italic;
+}
+
+/* --- LISTADO DE CAPÍTULOS --- */
+/* Lista de temporadas */
+ol {
+    margin-left: 20px;
+}
+
+/* Lista de episodios dentro de las temporadas */
+ol ol {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    margin: 15px 0 30px 0;
+    padding-left: 0;
+}
+
+ol ol li {
+    background: #222;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    border-left: 3px solid #4da6ff;
+    transition: transform 0.2s;
+}
+
+ol ol li:hover {
+    transform: translateX(10px);
+    background: #2a2a2a;
+}
+
+/* --- ESTILOS ESPECÍFICOS PARA ELENCO (Personajes) --- */
+h3 + p {
+    margin-top: -15px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+/*Texto de la IA:*/
+
+/*
+Para transformar el diseño de tu práctica de Star Wars sin tocar los archivos HTML, 
+he preparado un CSS completamente nuevo que utiliza una estética inspirada en interfaces 
+espaciales (Modo Oscuro), con tipografía moderna y efectos de brillo de "sable de luz".
+
+Aquí tienes el código para reemplazar el contenido de tu archivo css/estilos.css:
+
+
+Principales cambios realizados:
+
+Paleta de colores: Pasamos de un fondo blanco estándar a un modo oscuro temático (negro profundo, gris y amarillo Star Wars).
+Layout de Capítulos: En lugar de una lista vertical infinita, los episodios ahora se organizan en una cuadrícula (grid) automática, lo que hace que la página sea mucho más corta y fácil de leer.
+Interactividad: He añadido efectos de transición (transition) en los enlaces del menú y en la lista de capítulos para que reaccionen cuando pasas el ratón por encima.
+Tipografía y Espaciado: Se mejoró la legibilidad separando los párrafos y usando bordes laterales para centrar el contenido, dándole un aspecto de documento técnico de la República.
+
+Acentos Visuales:
+
+Azul (#4da6ff): Para los subtítulos y bordes de episodios (representando a los Jedi).
+Rojo (#ff4444): Para el bloque de producción (representando el peligro/Sith).
+Amarillo (#ffe81f): Para los títulos principales.
+*/
