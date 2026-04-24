@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: #ce1e16;
+}
+
+nav {
+    background-color: #97989a;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer {
+        background-color: #E94D37;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        align: bottom;
+}
+
+
+
+
+
+
+.fuentes {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fuentes p{
+    color: lightslategray;
+}
+
+
+hr {
+    background-color: transparent;
+    border: 0;
+    height: 0;
+}
+
+
+
+
+
+
+
+#menuBanner {
+    width: 100%;
+    height: auto;
+}
+
+#headerLogo {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+#poster {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+#menuPoster {
+    width: 45%;
+    float: left;
+}
+
+#menuTexto {
+    width: 55%;
+    float: right;
+}
